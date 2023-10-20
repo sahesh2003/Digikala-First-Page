@@ -1,0 +1,121 @@
+div.wrapper>div.bestseller{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid #e0e0e2;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+div.wrapper>div.bestseller>div.bestseller-header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+div.wrapper>div.bestseller>div.bestseller-header>h2{
+    font-family: Yekan;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 50px;
+    margin-right: 40%;
+}
+div.wrapper>div.bestseller>div.bestseller-header>h2>span>i{
+    color: orange;
+}
+div.wrapper>div.bestseller>div.bestseller-header>a{
+    text-decoration: none;
+    line-height: 50px;
+    font-family: Yekan;
+    font-size: 13px;
+    margin-left: 15px;
+    color:#19bfd3;
+}
+div.wrapper>div.bestseller>div.swipercontainer{
+    width: 100%;
+    height: calc(100% - 50px);
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding-right: 5px;
+    padding: 5px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+div.wrapper>div.bestseller>div.swipercontainer>div.swiper>div.swiper-wrapper>div.swiper-slide>a{
+    text-decoration: none;
+    width: 280px;
+    height: 30%;
+    display: flex;
+    justify-content:center;
+    align-content: space-between;
+    align-items: flex-start;
+    margin-left: 5px;
+    padding: 5px;
+    
+}
+div.wrapper>div.bestseller>div.swipercontainer>div.swiper>div.swiper-wrapper>div.swiper-slide>a>img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+
+}
+div.wrapper>div.bestseller>div.swipercontainer>div.swiper>div.swiper-wrapper>div.swiper-slide>a>h3{
+    width: 20px;
+    font-family: Yekan;
+    color: #19bfd3;
+    font-size: 20px;    
+    margin-top: calc(30%/2 - 20px/2);
+}
+div.wrapper>div.bestseller>div.swipercontainer>div.swiper>div.swiper-wrapper>div.swiper-slide>a>p{
+    font-family: Yekan;
+    color: black;
+    font-size: 10px;
+    width: 180px;
+    height: 20px;
+    margin-top: 20px;
+    line-height: 20px;
+    margin-top: calc(30%/2 - 11px/2);
+    text-align: right;
+    margin-right: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+div.wrapper>div.bestseller>div.swipercontainer>div.swiper>div.swiper-wrapper>div.swiper-slide>hr{
+    width: 180px;
+    height: 0.02px;
+    color: #dfdfdf;
+    box-sizing: unset;
+    box-shadow: none;
+    margin-right: 80px;
+    border: 0.002px solid #dfdfdf;
+}

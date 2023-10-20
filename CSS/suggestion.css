@@ -1,0 +1,148 @@
+div.wrapper>div.suggestion{
+    width: 100%;
+    height: 260px;
+}
+div.wrapper>div.suggestion>div.carousel{
+    width: 80%;
+    height: 220px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    display: block;
+    background-color: #ef4056;
+    border-radius: 16px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 12px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-button-next, .swiper-button-prev{
+    width: unset;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: 5px 5px darkgray;
+    border-radius: 50%;
+    font-size: 12px;
+    color: rgb(230, 224, 224);
+    line-height: 50px;
+  }
+div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div.swiper-slide{
+    /* width: 150px; */
+    height: inherit;
+    background-color:#FFFFFF;
+    vertical-align: top;
+    display: inline-block;
+    /* border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px; */
+    font-family: Yekan;
+}
+div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div.swiper-slide>img{
+    width: 70%;
+    height: 70%;  
+    object-fit: contain;
+    margin: 0 auto;
+}
+div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div.swiper-slide>div.discount{
+    width: 34px;
+    height: 20px;
+    background-color: #EE384E;
+    border-radius: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div.swiper-slide>div.discount>p{
+    font-size: 12px;
+    line-height: 20px;
+color: #FFFFFF;
+font-weight: bold;
+text-align: center;
+
+}
+div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div.swiper-slide>div.price{
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div.swiper-slide>p{
+    font-size: 10px;
+    line-height: 20px;
+    font-family: Yekan;
+    text-decoration:line-through; 
+    text-align: left;
+    margin-left: 30px;
+    color: darkgray;
+}
+/* div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div.swiper-slide:nth-last-child(){
+    background-color: #ef4056;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div:nth-child(1)>img{
+    display: inline-block;
+    object-fit: cover;
+    width: 50%;
+    width: 100px;
+    margin-right: 20px;
+}
+div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div.swiper-slide:nth-child(1)>p>a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.4;
+    font-family: Yekan;
+    color: rgb(116, 34, 34);
+    text-decoration: none;
+    padding-right: 25px;
+} */
+div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div.swiper-slide>div.suggestion-last>a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #19bfd3;
+    vertical-align: top;
+    margin-top: 50%;
+    display: inline-block;
+    text-decoration: none;
+}
+div.wrapper>div.suggestion>div.carousel>div.swiper>div.swiper-wrapper>div.swiper-slide>div.suggestion-last>a>p{
+    font-size: 8px;
+    line-height: 20px;
+    font-family: Yekan;
+    color: darkgray;
+    display: inline-block;
+    margin: unset;
+}

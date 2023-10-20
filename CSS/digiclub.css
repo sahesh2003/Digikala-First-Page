@@ -1,0 +1,59 @@
+div.wrapper>div.digiclub{
+    width: 78%;
+    height: 60px;
+    background-image: linear-gradient(76deg,#35a6c8,#007295);
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+}
+div.wrapper>div.digiclub>div.logo{
+    width: 40%;
+    height: inherit;
+    padding-right: 20px;
+    
+    
+}
+div.wrapper>div.digiclub>div.logo>img{
+    width: 110px;
+    padding-top: 15px;
+}
+div.wrapper>div.digiclub>div.parts{
+    background-color: white;
+    width: 70%;
+    height: inherit;
+    border-radius: 8px;
+    display: flex;
+}
+div.wrapper>div.digiclub>div.parts>a{
+    padding: 3px;
+    height: inherit;
+    display: flex;
+    text-decoration: none;
+    width: 33%;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+div.wrapper>div.digiclub>div.parts>a>h5{
+    font-family: Yekan;
+    font-size: 10px;
+    color: black;
+    line-height: 50px;
+
+}
+div.wrapper>div.digiclub>div.parts>a>img{
+    object-fit: cover;
+    height: 90%;
+    width: 70%;
+
+}
+div.wrapper>div.digiclub>div.parts>div.line{
+    width: 2px;
+    height: inherit;
+    background-color: #007295;
+}

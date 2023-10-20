@@ -1,0 +1,71 @@
+div.wrapper>div.tech{
+    width: 80%;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    display: flex;
+}
+div.wrapper>div.tech>div.tech1{
+    width: 25%;
+    height: inherit;
+    border-radius: 16px;
+    
+}
+div.wrapper>div.tech>div.tech1>h3{
+    padding: 10px;
+    font-family: Yekan;
+    font-size: 13px;
+    font-weight: 600;
+}
+div.wrapper>div.tech>div.tech1>p{
+    font-family: Yekan;
+    font-size: 11px;
+    font-weight: 500;
+    padding-right: 10px;
+    color: #81858b;
+}
+div.wrapper>div.tech>div.tech1>div.pics{
+    margin-top: 10px;
+}
+div.wrapper>div.tech>div.tech1>div.pics>a{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.wrapper>div.tech>div.tech1>div.pics>a>img{
+    width: 40%;
+    margin: 10px;
+    object-fit: cover;
+}
+div.wrapper>div.tech>div.line{
+    width: 0.5px;
+    height: inherit;
+    background-color: #e0e0e2;
+}
+div.wrapper>div.tech>div.tech1>div.pics>a>div.line{
+    width: 0.5px;
+    height: inherit;
+    background-color: #e0e0e2;
+}
+div.wrapper>div.tech>div.tech1>div.pics>a>hr{
+    width: 85%;
+    margin: 0 auto;
+    color: #e0e0e2;
+    border-style: solid;
+    border-width: 0.02px;
+}
+div.wrapper>div.tech>div.tech1>a{
+    width: 200px;
+    height: 20px;
+    display: block;
+    font-family: Yekan;
+    font-size: 12px;
+    text-decoration: none;
+    color: #19bfd3;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}

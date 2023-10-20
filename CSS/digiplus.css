@@ -1,0 +1,126 @@
+div.wrapper>div.digiplus{
+    width: 78%;
+    height: 300px;
+    background-color: #941b80;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+}
+div.wrapper>div.digiplus>div.logo{
+    width: 30%;
+    height: inherit;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-image: url('../Images/plus-widget.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div.wrapper>div.digiplus>div.logo>a>img{
+    padding-top: 20px;
+    width: 110px;
+}
+div.wrapper>div.digiplus>div.logo>p{
+    font-family: Yekan;
+    color: whitesmoke;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+div.wrapper>div.digiplus>div.logo>span{
+    margin-top: 20px;
+}
+div.wrapper>div.digiplus>div.logo>span>a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Yekan;
+    font-size: 12px;
+    width: 100px;
+    border: 1px solid whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+div.wrapper>div.digiplus>div.logo>span>a>i{
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.5;
+}
+div.wrapper>div.digiplus>div.plusproducts{
+    width: 70%;
+    height: inherit;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.wrapper>div.digiplus>div.plusproducts>div.gift{
+    width: 49%;
+    height: inherit;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* display: flex;
+    justify-content: space-between; */
+    
+}
+div.wrapper>div.digiplus>div.plusproducts>div.gift>div.plusheader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+div.wrapper>div.digiplus>div.plusproducts>div.gift>div.plusheader>h4{
+    font-family: Yekan;
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+div.wrapper>div.digiplus>div.plusproducts>div.gift>div.plusheader>a{
+    font-family: Yekan;
+    font-size: 12px;
+    text-decoration: none;
+    color: #a63489;
+    font-weight: 500;
+}
+div.wrapper>div.digiplus>div.plusproducts>div.gift>div.gift1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+div.wrapper>div.digiplus>div.plusproducts>div.gift>div.gift1>a{
+    width: 30%;
+    text-decoration: none;
+    position: relative;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+div.wrapper>div.digiplus>div.plusproducts>div.gift>div.gift1>a>img{
+    width: 100%;
+}
+div.wrapper>div.digiplus>div.plusproducts>div.gift>div.gift1>a>h5{
+    font-family: Yekan;
+    font-size: 10px;
+    color: #a63489;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+    position: absolute;
+    top:80%;
+    left: 40;
+}
+div.wrapper>div.digiplus>div.plusproducts>div.giftline{
+    background-color: #941b80;
+    width: 3px;
+}

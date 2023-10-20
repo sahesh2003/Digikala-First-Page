@@ -1,0 +1,78 @@
+div.wrapper>div.brands{
+    width: 80%;
+    height: 200px;
+    background-color:#e0e0e2;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+}
+div.wrapper>div.brands>h3{
+    height: 45px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Yekan;
+    text-align: center;
+    font-weight: 500;
+    line-height: 45px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: block;
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+justify-content: space-around !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+  }
+
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  /* .swiper-button-next{
+    background-color: coral;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+
+  } */
+  div.wrapper>div.brands>div.swiper>div.swiper-wrapper>div.swiper-slide>a{
+    width: 100px;
+    display: block;
+  }
+  div.wrapper>div.brands>div.swiper>div.swiper-wrapper>div.swiper-slide>a>img{
+    width: 100px;
+    object-fit: cover;
+    display: block;
+  }

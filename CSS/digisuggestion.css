@@ -1,0 +1,90 @@
+div.wrapper>h3{
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: Yekan;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div.wrapper>div.digisuggestion{
+    width: 80%;
+    height: 310px;
+    background-color: #e0e0e2;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid #e0e0e2;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  div.wrapper>div.digisuggestion>div.swiper>div.swiper-wrapper>div.swiper-slide{
+    width: 150px !important;
+  }
+
+  div.wrapper>div.digisuggestion>div.swiper>div.swiper-wrapper>div.swiper-slide>a{
+    
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    /* border-bottom: 1px solid #e0e0e2; */
+}
+div.wrapper>div.digisuggestion>div.swiper>div.swiper-wrapper>div.swiper-slide>a>div.digicategory{
+    width: 75px;
+    height: 75px;
+    background-color: #e0e0e2;
+    border-radius: 50%;
+  }
+div.wrapper>div.digisuggestion>div.swiper>div.swiper-wrapper>div.swiper-slide>a>div.digicategory>img{
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    object-fit: contain;
+    margin-top: 15px;
+}
+div.wrapper>div.digisuggestion>div.swiper>div.swiper-wrapper>div.swiper-slide>a>h4{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: Yekan;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+div.wrapper>div.digisuggestion>div.swiper>div.swiper-wrapper>div.swiper-slide>div.line{
+    width: inherit;
+    background-color: #e0e0e2;
+    height: 0.8px;
+}

@@ -1,0 +1,96 @@
+div.wrapper>div.supermarket{
+    width: 80%;
+    height: 100px;
+    background-color: rgba(203, 201, 201, 0.443);
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 16px;
+    background-image: url('../Images/supermarket-background.svg');
+    object-fit: contain;
+}
+div.wrapper>div.supermarket>a{
+    display: block;
+    text-decoration: none;
+}
+div.wrapper>div.supermarket>a>img:nth-child(1){
+    width: 50px;
+    margin-top: 30px;
+    margin-right: 20px;
+    display: inline-block;
+}
+div.wrapper>div.supermarket>a>img:nth-child(2){
+    width: 200px;
+display: inline-block;
+vertical-align: top;
+margin-top: 40px;
+height: 28px;
+}
+div.wrapper>div.supermarket>a>p{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Yekan;
+    font-size: 14px;
+    background-color: #39ae00;
+    width: 120px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 10px;
+    vertical-align: top;
+    margin-top: 40px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 60px;
+}
+div.wrapper>div.supermarket>a>div.product{
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-top: 10px;
+    border: 5px solid white;
+    background-color: white;
+    position: relative;
+}
+div.wrapper>div.supermarket>a>div.product>img{
+    width: inherit;
+    height: inherit;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: top;
+    object-fit: cover;
+    position: absolute;
+}
+div.wrapper>div.supermarket>a>div.product>p{
+    background-color: #ef4056;
+    width: 40px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    font-family: Yekan;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 50px;
+    right: -10px;
+}
+div.wrapper>div.supermarket>a>p:nth-last-child(1){
+    display: inline-block;
+    text-decoration: none;
+    font-family: Yekan;
+    font-size: 12px;
+    background-color: white;
+    width: 115px;
+    color: darkgray;
+    text-align: center;
+    border-radius: 15px;
+    vertical-align: top;
+    margin-top: 35px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 2px;
+}

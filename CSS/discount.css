@@ -1,0 +1,11 @@
+div.wrapper>div.discount{
+    width: 80%;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+}
+div.wrapper>div.discount>img{
+    height: 100%;
+    border-radius: 16px;  
+}

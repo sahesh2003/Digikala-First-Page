@@ -1,0 +1,55 @@
+div.wrapper>div.readings{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+div.wrapper>div.readings>div.readings-header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+div.wrapper>div.readings>div.readings-header>p{
+    line-height: 50px;
+    font-family: Yekan;
+    font-weight: 500;
+    font-size: 14px;
+}
+div.wrapper>div.readings>div.readings-header>a{
+    text-decoration: none;
+    color: #19bfd3;
+    line-height: 50px;
+    font-family: Yekan;
+    font-weight: 500;
+    font-size: 13px;
+}
+div.wrapper>div.readings>div.articles{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+div.wrapper>div.readings>div.articles>a{
+    width: 24%;
+    height: 245px;
+    border-radius: 10px;
+    border: 1px solid #c0c2c5;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+div.wrapper>div.readings>div.articles>a>img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div.wrapper>div.readings>div.articles>a>p{
+    font-family: Yekan;
+    font-weight: 500;
+    font-size: 11px;
+color: black;
+margin-top: 10px;
+margin-right: 15px;
+line-height: 25px;
+}

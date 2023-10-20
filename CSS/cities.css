@@ -1,0 +1,38 @@
+div.wrapper>div.menu>div.cities{
+    width: 360px;
+    height: 460px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    position: absolute;
+    z-index: 1000;
+    right: 490px;
+    overflow-y: auto;
+    border-radius: 10px;
+    display: none;
+}
+div.wrapper>div.menu>div.cities>p{
+    font-family: Yekan;
+    font-size: 11px;
+    margin-right: 10px;
+    height: 50px;
+    font-weight: bold;
+    line-height: 50px;
+}
+div.wrapper>div.menu>div.cities>div.city{
+
+}
+div.wrapper>div.menu>div.cities>div.city>a{
+    text-decoration: none;
+    color: black;
+    font-family: Yekan;
+    font-size: 11px;
+    margin-right: 10px;
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px solid gainsboro;
+    width: 95%;
+    height: 40px;
+}
+div.wrapper>div.menu>a:target>div.wrpper>div.cities{
+    display: visible;
+}

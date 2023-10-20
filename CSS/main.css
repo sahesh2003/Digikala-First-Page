@@ -1,0 +1,41 @@
+@import url('../CSS/header.css');
+@import url('../CSS/menu.css');
+@import url('../CSS/slider.css');
+@import url('../CSS/suggestion.css');
+@import url('./categories.css');
+@import url('../CSS/supermarket.css');
+@import url('../CSS/poster.css');
+@import url('../CSS/products.css');
+@import url('../CSS/discount.css');
+@import url('../CSS/digisuggestion.css');
+@import url('../CSS/brands.css');
+@import url('../CSS/tech.css');
+@import url('../CSS/digiplus.css');
+@import url('../CSS/digiclub.css');
+@import url('../CSS/bestseller.css');
+@import url('../CSS/poster-wide.css');
+@import url('../CSS/selection.css');
+@import url('../CSS/readings.css');
+@import url('../CSS/footer.css');
+@import url('../CSS/cities.css');
+
+body{
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+@font-face{
+    font-family: Yekan;
+    src: url('../Fonts/IRANYekan.eot');
+    src: url('../Fonts/IRANYekan.ttf');
+    src: url('../Fonts/IRANYekan.woff');
+    src: url('../Fonts/IRANYekan.woff2');
+}
+div.wrapper{
+    width: 100%;
+    height: 500vh;
+    background-color: #FFFFFF;
+}

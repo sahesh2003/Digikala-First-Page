@@ -1,0 +1,12 @@
+div.wrapper>div.poster-wide{
+    width: 80%;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+div.wrapper>div.poster-wide>img{
+    width: 100%;
+    height: inherit;
+    border-radius: 16px;
+}
